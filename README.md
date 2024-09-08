@@ -1,3 +1,5 @@
+![](./meme-from-pinterest.jpg)
+
 # Frontend Mentor Challenges
 
 This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -12,8 +14,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-
-<!-- ![](./screenshot.jpg) -->
 
 ### All the Challenges and Projects were Built with
 
