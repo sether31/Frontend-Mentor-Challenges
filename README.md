@@ -2,7 +2,7 @@
 
 # Frontend Mentor Challenges
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [challenges on Frontend Mentor](https://www.frontendmentor.io/challenges). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
 ## Overview
@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Continued development
 
-I will start to learn mobile-first as well as continue to learn javaScript before deep diving to any projects that contain javaScript.
+I will start to learn mobile-first workflow while continuing to learn javaScript before deep diving to any projects that contain javaScript.
 
 
 ### Useful resources
