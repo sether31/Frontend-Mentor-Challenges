@@ -33,7 +33,7 @@ Users should be able to:
 ### Continued development
 
 I will start to learn mobile-first workflow while continuing to learn javaScript before deep diving to any projects that contain javaScript.
-gity
+
 
 ### Useful resources
 
@@ -42,7 +42,7 @@ gity
 
 ## Author
 
-- Website - [Seth Hernandez](https://www.your-site.com)
+- Website - [sethtech](https://sethtech.vercel.app/)
 - Frontend Mentor - [@sether31](https://www.frontendmentor.io/profile/sether31)
 
 
