@@ -1,0 +1,1 @@
+![](./assets/ss_recipe.PNG)
