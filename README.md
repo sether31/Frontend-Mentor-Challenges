@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Continued development
 
-I will start to learn mobile-first workflow while continuing to learn javaScript before deep diving to any projects that contain javaScript.
+I will start to learn mobile-first workflow (not sure) while continuing to learn javaScript before deep diving to any projects that contain javaScript.
 
 
 ### Useful resources
