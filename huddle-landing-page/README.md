@@ -1,0 +1,1 @@
+![](./images/ss_huddle_landing_page.png)
