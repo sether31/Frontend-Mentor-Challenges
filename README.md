@@ -42,7 +42,6 @@ I will start to learn mobile-first workflow (not sure) while continuing to learn
 
 ## Author
 
-- Website - [sethtech](https://sethtech.vercel.app/)
 - Frontend Mentor - [@sether31](https://www.frontendmentor.io/profile/sether31)
 
 
