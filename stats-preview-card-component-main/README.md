@@ -1,4 +1,4 @@
-![](./assets/ss_stats-preview-page.png)
+![](./assets/ss-stats-preview-page.png)
 
 ## Technologies
 - HTML5
