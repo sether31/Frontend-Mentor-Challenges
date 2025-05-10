@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="
+  relative bg-veryDarkBlue text-white grid place-content-center min-h-screen font-inter
+">
+
+  <article class="
+    max-w-5xl m-12
+    text-sm bg-card flex flex-col-reverse rounded-lg gap-4
+    md:flex-row
+  ">
+    <div class="
+      p-4 text-center grid gap-4 w-full 
+      md:w-1/2 md:p-14
+    ">
+      <h3 class="text-headWhite font-bold text-3xl md:text-left font-lexend">
+         Get 
+         <span class="text-softViolet">insights</span> 
+         that help your business grow.
+      </h3>
+      <p class="text-paraWhite md:text-left">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+
+      <div class="
+        flex flex-col gap-3 uppercase mt-4
+        md:flex-row md:justify-between
+      ">
+        <span>
+          <p class="text-2xl font-bold mb-1">10k+</p> 
+          <p class="text-headWhite">companies</p>
+        </span>
+        <span>
+          <p class="text-2xl font-bold mb-1">314</p> 
+          <p class="text-headWhite">templates</p>
+        </span>
+        <span>
+          <p class="text-2xl font-bold mb-1">12+</p> 
+          <p class="text-headWhite">queries</p>
+        </span>
+      </div>
+    </div>
+
+    <div class="
+      relative w-full md:w-1/2
+      before:content-[''] before:absolute before:h-full before:w-full before:bg-softViolet before:opacity-50 before:rounded-t-lg md:before:rounded-none md:before:rounded-r-lg
+    ">
+      <picture>
+        <source media="(min-width: 900px)" srcset="./assets/image-header-desktop.jpg">
+
+        <img src="./assets/image-header-mobile.jpg" class=" w-full h-full object-cover before:rounded-t-lg md:before:rounded-none md:before:rounded-r-lg" alt="image-mobile">
+      </picture>
+    </div>
+  </article>
+
+ 
+  
+
+  <div class="absolute bottom-0 left-[50%] translate-x-[-50%] text-sm">
+    Challenge by 
+    <a href="https://www.frontendmentor.io/profile/sether31" class="text-softViolet">Frontend Mentor</a>. 
+    Coded by 
+    <a href="https://www.frontendmentor.io/profile/sether31" class="text-softViolet">Seth Hernandez</a>
+  </div>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            veryDarkBlue: 'hsl(233, 47%, 7%)',
+            card: 'hsl(244, 38%, 16%)',
+            softViolet: 'hsl(277, 64%, 61%)',
+            white: 'hsl(0, 0%, 100%)',
+            paragWhite: 'hsla(0, 0%, 100%, 0.75)',
+            headWhite: 'hsla(0, 0%, 100%, 0.6)'
+          },
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            lexend: ['"Lexend Deca"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
