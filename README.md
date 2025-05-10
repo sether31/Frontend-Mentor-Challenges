@@ -18,9 +18,8 @@ Users should be able to:
 ### All the Challenges and Projects were Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS 
+- Tailwind CSS
 
 
 ### What I learned
