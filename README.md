@@ -33,6 +33,8 @@ Users should be able to:
 
 I will start to learn mobile-first workflow (not sure) while continuing to learn javaScript before deep diving to any projects that contain javaScript.
 
+Edit: Im currently learning mobile first workflow with tailwind css.
+
 
 ### Useful resources
 
