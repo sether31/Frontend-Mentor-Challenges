@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body class="grid md:place-content-center min-h-screen bg-lightGray font-karla">
+  <section class="grid sm:max-w-3xl sm:grid-cols-2 shadow-lg m-8">
+    <article class="col-span-2 bg-white p-8 rounded-t-md">
+      <h2 class="text-cyan text-lg sm:text-xl font-bold tracking-wide">Join our community</h2>
+      <p class="text-brightYellow my-4">30-day, hassle-free money back guarantee</p>
+
+      <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+    </article>
+
+    <article class="bg-darkCyan p-8 col-span-2 sm:col-span-1 text-white sm:rounded-bl-md">
+      <h2 class="text-lg font-bold sm:text-xl tracking-wide">Monthly Subscription</h2>
+      <p class="mt-4 flex items-center gap-1">
+        <span class="text-4xl font-bold">&dollar;29</span> 
+        <span class="text-lightGray">per month</span>
+      </p>
+
+      <p class="mb-6">Full access for less than &dollar;1 a day</p>
+
+      <a class="p-3 bg-brightYellow w-full block text-center rounded-md cursor-pointer shadow-md font-bold hover:opacity-90 ease">Sign Up</a>
+    </article>
+
+    <article class="p-8 bg-cyan text-white col-span-2 sm:col-span-1 rounded-b-md sm:rounded-none sm:rounded-br-md">
+      <h2 class="text-lg font-bold sm:text-xl tracking-wide">Why Us</h2>
+      <p>
+        Tutorials by industry experts
+        Peer &amp; expert code review
+        Coding exercises
+        Access to our GitHub repos
+        Community forum
+        Flashcard decks
+        New videos every week
+      </p>
+    </article>
+  </section>
+
+  <footer class="text-sm text-center mx-8">
+    <p class="attribution">
+      Challenge by <a href="entor.io/profile/sether31" class="text-darkCyan">Frontend Mentor</a>. 
+      Coded by <a href="entor.io/profile/sether31" class="text-darkCyan">Seth Hernandez</a>.
+    </p>
+  </footer>
+  
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            darkCyan: 'hsl(179, 62%, 40%)',
+            cyan: 'hsl(179, 62%, 43%)',
+            brightYellow: 'hsl(71, 73%, 54%)',
+            lightGray: 'hsl(204, 43%, 93%)',
+            grayishBlue: 'hsl(218, 22%, 67%)',
+          },
+          fontFamily: {
+            karla: ['Karla', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
