@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="grid place-content-center min-h-dvh bg-slate-300 font-outfit text-sm">
+
+  <section class="bg-white max-w-xs rounded-xl grid gap-8 p-4 mx-8">
+    <div class="w-full">
+      <img src="./assets/images/image-qr-code.png" alt="image-qr-code" class="h-full w-full object-cover rounded-xl">
+    </div>
+
+    <div class="text-center px-4 pb-8">
+      <h2 class="font-bold text-xl text-slate-900 mb-4">
+        Improve your front-end skills by building projects
+      </h2>
+      <p class="text-slate-500">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
+  </section>
+  
+  <footer class="text-center mx-8 my-4">
+    Challenge by <a href="https://www.frontendmentor.io/profile/sether31" class="font-bold text-slate-900">Frontend Mentor</a>. <br>
+    Coded by <a href="https://www.frontendmentor.io/profile/sether31" class="font-bold text-slate-900">Seth Hernandez</a>.
+  </footer>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            outfit: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
